@@ -554,6 +554,9 @@
 [metrocubevania]
 "0.2.0-beta" = "ba52e82d88e501f1d13839a111c5bc649c5c3796c7f19e6aea4ab7da6ab0ab24"
 
+[metroidfusion]
+"0.0.17" = "eb63965ff09d1f6441dfbda5d7566316b7b03b1d63a7f7ac4a7c3a495088c553"
+
 [metroidprime]
 "0.5.0" = "6eacc986f6aef0e3270a0269c18b308662d6b6dbde39b539e7741e7a3045e876"
 
