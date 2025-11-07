@@ -3,7 +3,6 @@ from taskgraph.util.taskcluster import find_task_id, list_artifacts, get_artifac
 import taskgraph
 
 from collections import defaultdict
-import json
 import os
 import shlex
 
@@ -28,10 +27,10 @@ def _filter_for_pr(tasks, parameters, force=[]):
         if not artifact['name'].startswith('public/diffs/') or not artifact['name'].endswith('.apdiff'):
             continue
 
-        diff_response = get_artifact(diff_task, artifact['name'])
-        if diff_response.status != 200:
-            raise Exception("Failed to fetch artifact {}".format(artifact["name"]))
-        diff = json.loads(diff_response.read())
+        try:
+            diff = get_artifact(diff_task, artifact['name'])
+        except Exception as exc:
+            raise Exception("Failed to fetch artifact {}".format(artifact["name"])) from exc
 
         for version_range, diff_status in diff["diffs"].items():
             apworld_name = diff["apworld_name"]
