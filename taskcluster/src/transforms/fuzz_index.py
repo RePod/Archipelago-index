@@ -16,6 +16,8 @@ def fuzz_index(config, tasks):
 
         index_path = f"ap.{project}.fuzz.pr.{pr_number}.{apworld_name}.{version}.{extra_args_key}.latest"
 
+        task.setdefault("routes", []).append(f"index.{index_path}")
+
         if task_for == "github-issue-comment":
             opt = task.setdefault("optimization", {})
             skip_unless_changed = opt.pop("skip-unless-changed", [])
@@ -25,7 +27,5 @@ def fuzz_index(config, tasks):
                     "skip-unless-changed": skip_unless_changed
                 }
             }
-        elif task_for.startswith("github-pull-request"):
-            task.setdefault("routes", []).append(f"index.{index_path}")
 
         yield task
