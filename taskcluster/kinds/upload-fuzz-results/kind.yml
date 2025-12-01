@@ -9,6 +9,7 @@ kind-dependencies:
   - fuzz
   - fuzz-report
   - diff
+  - publish
 
 tasks:
   apfuzz:

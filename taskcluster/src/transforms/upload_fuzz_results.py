@@ -21,10 +21,12 @@ def build_upload_fuzz_payload(config, tasks):
         fuzz_report_label = f"fuzz-report-{apworld_name}-{version}"
 
         # For test-fuzz/fuzz: if-depend on fuzz-report (so upload happens after report)
-        # For r+/r++: task already depends on fuzz via from_deps
+        # For r+/r++: depend on publish-index (upload after publish succeeds)
         if is_test_fuzz:
             task.setdefault("dependencies", {})[fuzz_report_label] = fuzz_report_label
             task.setdefault("if-dependencies", []).append(fuzz_report_label)
+        else:
+            task.setdefault("dependencies", {})["publish-index"] = "publish-index"
 
         task["attributes"]["extra_args_key"] = extra_args_key
         task["attributes"]["is_test_fuzz"] = is_test_fuzz
