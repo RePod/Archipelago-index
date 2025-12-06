@@ -9,7 +9,7 @@ def build_fuzz_report_payload(config, tasks):
         fuzz_tasks = []
         for dep_label in task["dependencies"].values():
             dep_task = config.kind_dependencies_tasks[dep_label]
-            extra_args_key = dep_task.attributes.get("extra_args_key", "default")
+            extra_args_key = dep_task.attributes.get("extra_args_key", "")
             fuzz_tasks.append({
                 "task-id": {"task-reference": f"<{dep_label}>"},
                 "extra-args": extra_args_key,
