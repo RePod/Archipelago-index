@@ -189,3 +189,7 @@ __version__ = ">=0.0.2-alpha+b"
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='ducklock_platdrop')"]]
 __expected__ = "error"
 __version__ = ">=0.0.2-alpha+b"
+
+[["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Cuphead', option='level_shuffle_kingdice')"]]
+__expected__ = "error"
+__version__ = ">=0.0.2-alpha+f"
