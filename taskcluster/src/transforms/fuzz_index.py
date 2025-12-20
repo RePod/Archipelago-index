@@ -5,8 +5,12 @@ transforms = TransformSequence()
 
 @transforms.add
 def fuzz_index(config, tasks):
+    pr_number = config.params.get("pull_request_number")
+    if not pr_number:
+        yield from tasks
+        return
+
     project = config.params['project'].lower()
-    pr_number = config.params.get("pull_request_number", -1)
     task_for = config.params["tasks_for"]
 
     for task in tasks:
