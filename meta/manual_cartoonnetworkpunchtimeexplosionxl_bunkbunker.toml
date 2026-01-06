@@ -24,43 +24,43 @@ __version__ = ">=0.0.3"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='goal')"]]
 __expected__ = "error"
-__version__ = ">=0.0.3"
+__version__ = ">=0.0.3,<0.1.0"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Character_Shop_enabled')"]]
 __expected__ = "error"
-__version__ = ">=0.0.3"
+__version__ = ">=0.0.3,<0.1.0"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Stage_Shop_enabled')"]]
 __expected__ = "error"
-__version__ = ">=0.0.3"
+__version__ = ">=0.0.3,<0.1.0"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Skin_Shop_enabled')"]]
 __expected__ = "error"
-__version__ = ">=0.0.3"
+__version__ = ">=0.0.3,<0.1.0"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Clip_Shop_enabled')"]]
 __expected__ = "error"
-__version__ = ">=0.0.3"
+__version__ = ">=0.0.3,<0.1.0"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Simple_Arcade_enabled')"]]
 __expected__ = "error"
-__version__ = ">=0.0.3"
+__version__ = ">=0.0.3,<0.1.0"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Full_Arcade_enabled')"]]
 __expected__ = "error"
-__version__ = ">=0.0.3"
+__version__ = ">=0.0.3,<0.1.0"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Minigame_Checks_Score_Over_70')"]]
 __expected__ = "error"
-__version__ = ">=0.0.3"
+__version__ = ">=0.0.3,<0.1.0"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Silly_Extra_Checks')"]]
 __expected__ = "error"
-__version__ = ">=0.0.3"
+__version__ = ">=0.0.3,<0.1.0"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='filler_traps')"]]
 __expected__ = "error"
-__version__ = ">=0.0.3"
+__version__ = ">=0.0.3,<0.1.0"
 
 [["test.general.test_options.TestOptions.test_pickle_dumps_default (game='Manual_CartoonNetworkPunchTimeExplosionXL_BunkBunker', option='Example_Toggle')"]]
 __expected__ = "error"
