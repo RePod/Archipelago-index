@@ -284,6 +284,9 @@
 [keymasters_keep]
 "0.2.0+silasarybundle" = "c3e5bd82786efdc789011695bc82c7aa1a72db19b982abedf949073dea36c39d"
 
+[keywe]
+"1.0.3" = "675eab02790c4eebeb9f6ecc1c8c7d510a85e03cd62b12ad33ccd48b9b1e81b6"
+
 [khbbs]
 "0.1.7" = "2613f029485eb514e52ce199673bbc83ce961eb65715900f75547e0ce14ecb34"
 
