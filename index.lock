@@ -1616,3 +1616,6 @@
 
 [zillion]
 "0.6.7" = "supported"
+
+[mgs]
+"0.7.0" = "1c2dc4e79fe170f1e32343098c38957650cbcef12d866c936c81412f2bfd7718"
