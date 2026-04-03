@@ -1398,7 +1398,7 @@
 [zork_grand_inquisitor]
 "2.0.6+hotfix1" = "ba564178ce0ebceb153745f3c2ff05c65642276aff8a9d4aea9a70964a57741f"
 "2.0.7+hotfix1" = "582be6c33d15a712d568cebc765ab9a8cd2ba90f983c53634c0e168ae86dd0fb"
-"2.1.0" = "effbb4d815c7ddc25640b557d41e98a02d6f3fcde3bf62611be38e8556091dbc"
+"2.1.1" = "8d085fb3e9adc7a047cd7f44966855ae6456eda884d64bef971c79d5f755e517"
 
 [adventure]
 "0.6.7" = "supported"
